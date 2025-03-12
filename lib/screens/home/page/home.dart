@@ -15,6 +15,16 @@ class Home extends StatelessWidget {
           ),
         ),
         centerTitle: true,
+        actions: [
+          Container(
+            padding: EdgeInsets.fromLTRB(5, 10, 10, 5),
+            child: Icon(Iconsax.notification_bing),
+            ),
+          Container(
+            padding: EdgeInsets.fromLTRB(5, 10, 10, 5),
+            child: Icon(Iconsax.shopping_cart),
+            ),
+        ],
       ),  
     );
   }
