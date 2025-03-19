@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:lab7/common/widgets/app_bar.dart';
+import 'package:lab7/screens/home/page/home_screen.dart';
 
 import '../widget/botttom_nav_bar.dart';
 
@@ -15,10 +16,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   int _currentIndex = 0;
   final List<Widget> _screens = [
-    Container(
-      color: Colors.green,
-      height: double.infinity,
-    ),
+    HomeScreen(),
     Container(
       color: Colors.redAccent,
       height: double.infinity,
